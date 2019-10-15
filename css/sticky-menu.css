@@ -32,51 +32,64 @@ html {
     position: fixed;
     bottom: 50px;
     right: 0;
-    background-color: #FFF;
-    color: #337AB7;
+    background-color: #666;
+    color: #666;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 #back2Top:hover {
-    background-color: #337AB7;
-    color: #FFF;
+    background-color: #DDD;
+    color: #DDD;
 }
 .welcome-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #AAA;
 }
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #DDD;
 }
 .whatwedo-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #DDD;
 }
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #DDD;
 }
+
+.navbar-default .navbar-brand {
+    color: #FFF
+}
+
 .navbar-default .navbar-nav > li > a:hover {
-	color: #333;
+	color: #DDD;
 	background-color: #F0F0F0;
 }
 .navbar-default {
-    background-color: #EBFAFF;
-    border-color: #e7e7e7;
+    background-color: #666;
+    border-color: #666;
+    color: #FFF
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #FFF;
 }
 
+.navbar-header page-scroll {
+    color: #666;
+    background-color: #666
+}
 
+.ul-welcome {
+    list-style-type: hiragana;
+}
 
